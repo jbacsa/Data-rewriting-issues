@@ -1,0 +1,62 @@
+================= PYTHON ERROR ================= Olex2 Version 2026.06.26 svn.r591428b4 for OlexSys -- SVN Revision No. 7590
+
+Loading AC (Version Mon Jun 29 13:47:30 2026)
+ Loading fragmentdb (Version Fri Jan 23 14:40:16 2026)
+  FragmentDB version: 16
+Loading ReportPlus (Version Wed May 20 14:15:34 2026)
+ OK.
+Module ReportPlus has been successfully loaded.
+Loading NoSpherA2 (Version Mon Jun 29 13:47:30 2026)
+ 
+-- NoSpherA2 executable is: C:\Program Files\olex2-dev-win64.2\NoSpherA2.exe
+-- No MPI implementation found in PATH!
+-- Tonto, ORCA and other software relying on it will only have 1 CPU available!
+
+ 
+Failed to load NoMoRe. Please check your installation.
+Init successfull
+Welcome to Olex2
+
+We are grateful to our users for testing and supporting Olex2
+Please find the link to credits in the About box
+
+Dolomanov, O.V.; Bourhis, L.J.; Gildea, R.J.; Howard, J.A.K.; Puschmann, H.,
+OLEX2: A complete structure solution, refinement and analysis program (2009).
+J. Appl. Cryst., 42, 339-341.
+
+Using tabulated atomic form factors
+
++++ STARTING olex2.refine +++++ C:\Program Files\olex2-dev-win64.2\cctbx
+Successfully initialised OpenBlas from C:\Program Files\olex2-dev-win64.2\Python\Lib\site-packages\scipy.libs\libopenblas-802f9ed1179cb9c9b03d67ff79f48187.dll:
+OpenBLAS 0.3.18 DYNAMIC_ARCH NO_AFFINITY Haswell MAX_THREADS=24
+Using 6 refinement and 5 OpenBlas threads. Using OpenMP: False.
+  -------  --------  --------  --------  --------------------  --------------------  --------------------
+   Cycle      R1       wR_2      GooF          Shift/esd            Shift xyx               Shift U      
+  -------  --------  --------  --------  --------------------  --------------------  --------------------
+      1     20.75     47.22      7.43     -21.228 (C30.u33)     4.82e-01 (C30)         7.56e-01 (C30)      
+Flack reflections used: 4630
+Peak 1 = (0.583, 0.400, 0.444), Height = 5.625 e/A^3, 0.531 A away from C30
+  +++++++++++++++++++++++++++++++++++++++++++++++++++++++ After 1 CYCLE +++
+  +  R1:       0.2075 for 5213 reflections I >= 2u(I). Last R1: 0.2075
+  +  R1 (all): 0.2138 for 5527 reflections
+  +  wR2:      0.4722, GooF:  7.4345
+  +  Diff:     max=5.63, min=-3.53, RMS=0.28
+  +  Shifts:   xyz: 0.4821 for C30, U: 0.7557 for C30, Max/esd = -21.2282 for C30.u33
+  +  Data:     5527 (all) | 5213 (I >= 2u(I)g) | 4675 (I >= 5u(I)) [hkl: 5549]
+  ++++++++++++ 3 Constraints | 531 Restraints | 607 Parameters +++++++++++++++
+Hooft y: 0.53(5), Flack x: -0.23(5)
+NoSpherA2 in Olex2 for structure 68892761
+
+Refinement startet at: 2026-07-07 13:23:39.034548
+Cycle     SCF Energy    Max shift:  xyz/ESD     Label   Uij/ESD       Label   Max/ESD       Label    R1    wR2
+**************************************************************************************************************
+  0          ---                                                                                    N/A    N/A
+  1          ---                     6.8222    H21b.x   15.0000     C30.u33   15.0000     C30.u33 20.75  47.22
+**************************************************************************************************************
+Residual density Max:  +5.625
+Residual density Min:  -3.529
+Residual density RMS:  +0.283
+Goodness of Fit:       7.4345
+Refinement finished at: 2026-07-07 13:23:44.114706
+
+cannot join thread before it is started

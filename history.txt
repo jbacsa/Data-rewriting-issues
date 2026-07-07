@@ -1,0 +1,956 @@
+labels
+grow
+name 1
+brad 0.5
+fuse
+sel $H
+brad 0.5
+cell
+sel $H
+conn 0
+match -n=
+name 1
+name 34
+grow
+edit
+option
+options
+restart
+lsbrld
+labels
+edit
+labels
+showp
+hadd -d=1.098
+grow
+mode grow -v=2
+eadp
+fuse
+dfix 1.525 0.002
+sadi 0.002
+edit
+hadd -d=1.098
+mode grow -v=2
+eadp
+fuse
+file HC482-JS.ins
+conn 3
+sel $H
+fuse
+labels
+match -n=
+labels
+cell
+mode grow -v=3
+fuse
+file AH-7-42a.ins
+cell
+restart
+run(shell spy.GetParam(user.modules.location))
+restart
+edit
+showp 0 1
+showp
+showp 0 1
+edit
+showp 0 2
+showp 0 1
+showp 
+showp 0 1
+showp 0 2
+showp 0 1
+showp 0 2
+edit
+showp 0 1
+hadd -d=1.098
+showp 0 2
+hadd -d=1.098
+anis
+showp 0 1
+showp 0 2
+showp 0 1
+isor 0.002
+showp 0 2
+showp 0 1
+showp 0 2
+sadi 0.002
+sel $H
+showp
+sel $H
+hadd -d=1.098
+isor 0.002
+sadi 0.002
+isor 0.002
+hadd -d=1.098
+isor 0.002
+hadd -d=1.098
+hadd -d=1.077
+hadd -d=1.0
+hadd -d=1.098
+showp 0 2
+showp
+sadi 0.002
+hadd -d=1.098
+showp 0 1
+showp 0 2
+hadd -d=1.077
+dfix 1.393 0.003
+showp 0 2
+dfix 1.393 0.003
+showp 0 1
+hadd -d=1.098
+showp 0 2
+hadd -d=1.098
+isor 0.004
+shell filepath()
+labels
+anis -a
+edit
+isot
+sel $H
+isot
+sel $H
+anis
+split -r=EADP
+part 1
+part 2
+anis
+split -r=EADP
+sadi 0.002
+showp 0 1
+sadi 0.002
+showp 0 2
+sadi 0.002
+showp
+showp 0 1
+name 8
+showp 
+sel part 1
+RESI PH
+showp 1 2
+match -n=
+RESI PH
+same -i
+showp
+sel part 1
+rigu 0.0002 0.003
+sel part 2
+rigu 0.0002 0.003
+isor 0.002
+hadd -d=1.098
+rigu 0.002 0.003
+rigu 0.0002 0.003
+hadd -d=1.098
+hadd -d=1.078
+shell filepath()
+run(shell spy.GetParam(user.modules.location))
+restart
+run(shell spy.GetParam(user.modules.location))
+restart
+shell filepath()
+grow
+run(shell spy.GetParam(user.modules.location))
+restart
+shell filepath()
+anis
+grow
+shell filepath()
+labels
+conn 0
+match -n=
+name 1
+name 37
+hadd -d=1.098
+hadd -d=1.077
+name 1
+file AH-7-67_bipy.ins
+anis -h
+name 1
+anis
+file PY-I-054.ins
+shell filepath()
+labels
+mpln -n
+mpln 
+esd
+sel $H
+name O2b
+dfix 1.418 0.004
+split -r=EADP
+sadi 0.002
+showp 0 1
+showp 0 2
+showp
+hadd -d=1.098
+showp 0 1
+rigu 0.0003 0.003
+showp 0 2
+rigu 0.0003 0.003
+showp 0 1
+dfix 1.418 0.004
+hadd -d=1.098
+showp 0 2
+hadd -d=1.098
+showp htab -g
+htab -g
+mode grow -v=3
+fuse
+cell
+dfix 1.418 0.004
+mode grow -v=3
+fuse
+hadd -d=0.975
+htab -g
+mode grow -v=3
+fuse
+run(shell spy.GetParam(user.modules.location))
+showp 0 2
+showp 0 1
+file PART1.cif
+file PART2.cif
+shell filepath()
+cell
+restart
+grow
+htab -g
+esd
+htab -g
+grow
+shell filepath()
+fuse
+anis
+name O1s
+name O2s
+sel $H
+isot
+mode fit
+sel $H
+cell
+hadd -d=1.098
+hadd -d=1.078
+hadd -d=1.098
+hadd -d=1.0
+hadd -d=1.078
+dfix 0.955 0.004
+help inv
+run(shell spy.GetParam(user.modules.location))
+name O1s
+grow
+name C2s
+name C1s
+rigu 0.0002 0.003
+name 1
+name 5
+fixhl
+name 11
+sort
+name 11
+fixhl
+sort
+name 1
+name 24
+showp
+hadd -d=1.098
+run(shell spy.GetParam(user.modules.location))
+RESI 0
+split -r=EADP
+showp 0 1
+showp 0 2
+isot
+showp 0 1
+showp
+sadi 0.002
+DFIX 1.5153 0.002
+DFIX 1.4297 0.002
+hadd -d=1.098
+hadd -d=1.0
+hadd -d=1.098
+anis
+sel part 1
+RIGU 0.0002 0.003
+sel part 2
+RIGU 0.0002 0.003
+isor 0.004
+isor 0.002
+showp
+showp 0 1
+showp 0 2
+showp
+htab -g
+mode fit
+afix 134
+file 68714380.ins
+afix 134
+shell filepath()
+file BD-2-224_en.ins
+isor 0.01
+shell filepath()
+file BD-2-116_en.ins
+grow
+labels
+name H2
+name H3
+fuse
+grow
+telp 5
+brad 0.1
+sadi 0.0002
+brad 0.2
+fuse
+telp 25
+brad 0.4
+grow
+dfix 2.1
+dfix 1.0 0.02
+dfix 2.2
+esd
+AFIX 143
+grow
+fuse
+grow
+mode fit
+fuse
+dfix 1.008 0.003
+file LN3250330.ins
+grow
+cell
+grow
+htab -g
+shell filepath()
+grow
+shell filepath()
+grow
+shell filepath()
+cell
+part 1
+sel part 1
+sel $H
+showp 0 1
+showp 
+showp 0 -1
+showp 
+sel part 3
+part 1
+sel part 4
+part 2
+sel $H
+shell filepath()
+name Pb1
+name I1
+name I2
+grow
+fuse
+grow
+fuse
+grow
+fuse
+file addsymm.ins
+grow
+fuse
+brad 0.5
+grow
+fuse
+file addsym.ins
+shell filepath()
+grow
+file addsym3.ins
+shell filepath()
+edit
+sel part 1
+sel part 2
+sel part 1
+eadp
+isot
+sadi 0.0002
+isor 0.002
+anis -h
+shell filepath()
+showp 1
+showp 1 0
+showp 2 0
+showp 1 0
+file Part-b.cif
+file Part-a.cif
+sel part 2
+file Part-a.ins
+file Part-a.cif
+sel part 1
+fuse
+file Part-b.ins
+file Part-b.cif
+shell filepath()
+grow
+fuse
+afix 66 -s
+eadp
+grow
+file sflip.ins
+grow
+name Co1
+grow
+shell filepath()
+grow
+name Co1
+name Co2
+grow'
+grow
+shell filepath()
+htab -g
+file part1-hbonds.ins
+file part2-hbonds.ins
+htab -g
+file part1-hbonds.ins
+file part1-hbonds.cif
+labels
+name Co1
+grow
+cell
+mode grow -v=4
+mode grow -v=8
+fuse
+mode grow -v=8
+mode grow -v=4
+name 1
+match -n=b
+sort
+name 4
+match -n=b
+help match
+match -u
+showp
+name 1
+sort
+match -n=b
+mode grow -v=4
+mode grow -v=6
+mode grow -v=8
+fuse
+mode grow -v=8
+mode grow -v=5
+fuse
+sgen 001
+sgen 0 0 -1
+help sgen
+sgen -m 0 0 -1
+sgen -m 001
+move 001
+help move
+move -c 001
+move c 001
+fuse
+newsg
+help newsg
+help push
+basis
+mode fit
+mode grow -v=8
+grow
+fuse
+move -c -100
+move -c 100
+move c 100
+fuse
+help sg
+help change sg
+help change 
+change sg
+changesg
+help changesg
+changesg
+changesg P-1
+file P-1.ins
+mode grow -v=2
+edit
+help move
+help PUSH
+push -0.482331 -0.251535 -0.159102
+file P-1.ins
+mode grow -v=9
+fuse
+grow
+sel $C
+eadp
+grow
+part -1
+part -2
+part -1
+part -2
+shell filepath()
+sel H12
+sel H20c
+mode grow -v=3
+shell filepath()
+kill $Q
+file AH-7-61.ins
+file AH-7-61.xyz
+basis
+cell
+basis
+cell
+name 1
+fixhl
+mpln -n
+labels
+pict screenshot.png 2
+shell filepath()
+name N1
+part 1
+part 2
+part 1
+part 2
+grow
+part 1
+part 2
+showp 0 1
+showp
+name O1s
+split -r=EADP
+part 2
+EADP
+part 1
+sadi 0.002
+showp 0 1
+name 4
+name 1
+name N1a
+name 1
+name 9
+sort
+showp
+showp 0 1
+showp 2 1
+RESI GP
+name 1
+match -n=
+RESI GP
+same -i
+edit
+showp
+sadi 0.002
+eadp
+name B1
+showp 0 1
+showp 
+mpln -n
+pict screenshot.png 2
+showp 0 1
+showp
+eadp
+isor 0.003
+shell filepath()
+isot
+grow
+file P1.ins
+changesg P1
+grow
+cell
+part 1
+part 2
+split -r=EADP
+showp
+sel $H
+grow
+changesg P21
+help changesg
+changesg -g P21
+fuse
+sel $H
+sel $C
+split -r=EADP
+showp 1
+showp
+cell
+sel part 2
+isot
+eadp
+sadi 0.002
+eadp
+part 1
+part 2
+part 1
+part 2
+sel p1 p2
+sel part 1
+sel part 2
+part 2
+sel part 2
+name Si1
+restart
+sel $H
+labels
+sel part 1
+part 22
+sel part 2
+part 11
+sel part 1
+sel part 111
+sel part 11
+part 1
+sel part 22
+part 2
+showp 2
+showp 2 0
+showp 1 0
+part 2
+showp 1 0
+showp
+resi 0
+showp
+sel $H
+showp 1 2
+RESI 0
+match -n=b
+RESI 0
+showp
+edit
+name 2
+showp
+fuse
+showp
+showp 0 1
+showp
+mode fit
+showp 0 1
+showp
+showp 0 1
+showp 0 2
+showp 
+showp 0 2
+showp 
+showp 0 2
+showp 0 2 1
+name Si1
+dfix 1.534 0.002
+eadp
+showp 0 1
+dfix 1.534 0.002
+showp 0 1
+showp 0 2
+dfix 1.534 0.002
+showp 0 2
+showp 0 1
+label $Co
+label $I
+showp 0 1
+pict sshot.png 2
+showp 0 2
+pict sshot2.png 2
+sel $H
+hadd -d=1.098
+hadd -d=1.078
+dfix 1.098 0.003
+labels
+conn 0
+match -n=
+showp
+fuse
+showp
+fuse
+conn 0
+name 1
+showp
+name 1
+name 5
+name 9
+name 17
+name 29
+showp 
+name 1
+match -n=b
+cell
+mode grow -v=3
+fuse
+mode grow -v=3
+fuse
+mode grow -v=3
+fuse
+cell
+file JS-01-208.ins
+shell filepath()
+file AI-S.ins
+shell filepath()
+file AI-S.ins
+shell filepath()
+name 1
+match -n=
+file AI-S_dm.ins
+split -r=EADP
+showp
+showp 0 1
+showp 0 1 2
+isot
+cell
+name N2
+name N1
+name 1
+name 5
+name 1
+sort
+name O1s
+name O2s
+name 11
+name 4
+name O1w
+name O2w
+fixhl
+file 68717110.ins
+shell filepath()
+anis -a=3
+anis -a
+anis -a=3
+anis 
+shell filepath()
+grow
+fuse
+cell
+name 1
+sort
+name 1
+sort
+name H1
+name H2
+name O1
+name 1
+sel $H
+sel $C
+hadd -d=1.098
+grow
+kill $Q
+cell
+pict structure1.png 2
+grow
+shell filepath()
+fuse
+match -n=
+mode fit
+inv -f
+rigu 0.002 0.003
+rigu 0.0002 0.003
+label
+labels
+pict overlay.png
+shell filepath()
+labels
+file 68717110.ins
+cell
+shell filepath()
+htab -g
+grow
+mode grow -v=3
+kill $Q
+mode grow -v=3
+shell filepath()
+grow
+shell filepath()
+sel $C
+eadp
+shell filepath()
+cell
+fuse
+name 1
+name 13
+conn 0
+match -n=b
+sadi 0.002
+eadp
+sadi 0.002
+eadp
+pict screenshot.png
+sadi 0.002
+pict screenshot.png
+dfix 1.525 0.002
+restart
+shell filepath()
+name 1
+anis
+name 11
+name 1
+hadd -d=1.098
+shell filepath()
+labels
+file HC599-ARL.ins
+file HC599-ARL.xyz
+name 1
+sort
+showp
+fixhl
+file ARL_AOG_550_F.ins
+shell filepath(_
+shell filepath()
+labels
+name 1
+name O1w
+mode grow -v=2
+fuse
+kill $Q
+file ZY-1-303_P2-sde.ins
+file ZY-1-303_P2-sde.xyz
+fixhl
+name 1
+fixhl
+shell filepath()
+labels
+shell filepath()
+file shelx.ins
+sel $H
+isot
+sel $H
+sadi 0.002
+part 1
+part 2
+fixhl
+name 1
+fixhl
+name 1
+name 21
+showp
+RESI FRAG
+match -n=
+RESI FRAG
+same -i
+isot
+same -i
+part 0
+sel $H
+hadd -d=1.078
+sel C19
+hadd -d=1.078
+sel C19
+eadp
+sel C16
+eadp
+sel C16
+hadd -d=1.098\
+hadd -d=1.098
+shell filepath()
+htab -g
+fuse
+name O1
+grow
+cell
+labels
+name C12
+name N3
+showp
+fuse
+cell
+mode fit
+name N4
+name N1
+name C1
+showp
+RIGU 0.0002
+anis
+RIGU 0.0002
+lines 45
+lines 25
+lines 5
+anis
+RIGU 0.0002 0.002
+anis
+RIGU 0.0002 0.002
+anis
+RIGU 0.0002 0.002
+idor 0.002
+isor 0.002
+grow
+fuse
+dfix 1.43 0.002
+RIGU 0.0002 0.002
+anis
+RIGU 0.0002 0.002
+isor 0.002
+dfix 1.52 0.002
+RIGU 0.0002 0.002
+isor 0.002
+dfix 1.52 0.002
+dfix 1.22 0.002
+dfix 1.52 0.002
+isor 0.002
+dfix 1.432 0.002
+anis
+dfix 1.432 0.002
+isor 0.002
+grow
+dfix 1.532 0.002
+grow
+name 1
+mpln -n
+name 1
+brad 0.8
+name 1
+file BI-12-2.ins
+conn 0
+match -n=
+name 24
+label $N
+label $Ni
+label 
+labels
+pict screenshot.png
+file BI-12-2.ins
+labels
+shell filepath()
+file 68892761.ins
+sel $H
+name F1
+hadd -d=1.098
+name 1
+name 5
+name 18
+fixhl
+name 1
+name 11
+name 22
+name 4
+name 3
+fixhl
+sel $H
+name O1
+name O2
+mode fit
+kill $H
+sel $H
+mode fit
+name 1
+name 4
+rigu 0.002 0.003
+anis
+rigu 0.002 0.003
+anis
+rigu 0.002 0.003
+anis
+rigu 0.002 0.003
+dfix 1.534 0.002
+hadd -d=1.098
+name 1
+match -n=b
+hadd -d=1.098
+hadd -d=1.078
+cell
+mode grow -v=3
+hadd -d=1.078
+cell
+brad 0.8
+mpln -n
+legend
+labels
+legend
+label $N
+label $O
+pict GP64-xt2.png 3
+file GP64_sam2.ins
+labels
+label $C
+label $O
+label $N
+labels
+file GP64_sam2-pict2.ins
+pict GP64-xt2-02.png 3
+mode fit
+labels
+sel $H
+match -n=c
+afix 134
+htab -g
+labels

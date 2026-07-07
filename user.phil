@@ -1,0 +1,42 @@
+user {
+  sample_dir = "C:\\Users\\jbacsa\\AppData\\Roaming\\Olex2Data\\96f06c6ab8128c8c9c56f4940f5a2e29\\samples"
+  alert_solve_anyway = "N"
+  solution {
+    default_program = 'ShelXT'
+    default_method = 'Intrinsic Phasing'
+  }
+  refinement {
+    default_program = 'olex2.refine'
+    default_method = 'Gauss-Newton'
+  }
+  graphs {
+    program_analysis {
+      y_scale_factor = 4
+    }
+    reflections {
+      i_over_sigma_vs_resolution {
+        resolution_as = two_theta *d_spacing d_star_sq stol stol_sq
+      }
+    }
+  }
+  bonds {
+    colour = "grey light"
+    colours = "@@elements" "5@4278223103@4278255615@@orange" \
+              "5@4282071867@4286611584@@dark grey" \
+              "5@4286611584@4286611584@@grey" \
+              "69@4291875024@4290822336@100@@grey light"
+  }
+  atoms {
+    style = "C:\\Program Files\\olex2-dev-win64.2\\etc\\styles\\default.glds"
+  }
+  cif {
+    checkcif {
+      format = pdf *html
+    }
+  }
+  sorting {
+    cat1 = "m"
+    cat2 = "l"
+    cat3 = "s"
+  }
+}

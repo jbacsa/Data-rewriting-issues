@@ -1,0 +1,107 @@
+gui {
+  base_colour = c9c9c9
+  logo_colour = #014e8f
+  red = #aa0000
+  green = #00aa00
+  watermark = #777777
+  orange = #ff740e
+  skin {
+    name = "OD"
+    icon_border_colour = #dddddd
+    diagnostics {
+      colour_grade2 = #6e9619
+      colour_grade3 = #fe8b0d
+      colour_grade4 = #d62613
+    }
+  }
+  html {
+    base_colour = #c9c9c9
+    bg_colour = #efefef
+    font_colour = #111111
+    highlight_colour = #ff7800
+    input_bg_colour = #efefef
+    checkbox_height = 20
+    checkbox_width = 20
+    combo_width_2 = 55
+    table_bg_colour = #dedede
+    table_group_bg_colour = #d9d9d9
+    table_group_header_colour = #cdcdcd
+    table_firstcol_colour = #cdcdcd
+  }
+  timage {
+    grad_colour = #527bde
+    snumtitle {
+      grad_colour = #527bde
+      grad_step = 0.4
+    }
+    tab {
+      grad_colour = #527bde
+      height = 32
+      grad_step = 0.5
+      font_colour_L = 1.4
+      font_size = 21
+      top = 4
+      arrows = "bar:top:5"
+      off_L = 0.8
+    }
+    cbtn {
+      base_colour = #527bde
+      grad_colour = #527bde
+      grad_step = 0.1
+      bg_colour_L = 1.4
+      grad_colour_L = 1.3
+      font_size = 16
+      top = 2
+      left = 5
+      off_L = 1.2
+    }
+    button {
+      grad_colour = #dddddd
+      height = 22
+      top = 4
+      font_colour_L = 0.7
+      font_colour = #222244
+    }
+    tinybutton {
+      height = 21
+      width = 21
+      font_size = 15
+    }
+    h1 {
+      grad_colour = #527bde
+      height = 26
+      corner_rad = 5
+      rounded = "1100"
+      top = 2
+      left = 13
+      bg_colour_L = 1.2
+      grad_colour_L = 0.9
+      font_colour_L = 1.5
+      font_colour = #ffffff
+      arrows = "bar:left:8"
+      off_L = 0.8
+    }
+    h3 {
+      height = 22
+      grad_colour = #527bde
+      font_colour = #ffffff
+      grad_colour_L = 0.9
+      font_colour_L = 1.5
+      font_size = 15
+      left = 10
+      arrows = "bar:left:6"
+      off_L = 0.6
+    }
+  }
+  button_colouring = #aaaaaa
+  button_writing = #777777
+  tab_colour = #5563a4
+  htmlpanelwidth = 530
+  graph {
+    title_colour = #666666
+    fill_colour = #ff0000
+    fitline_colour = #aa0000
+    page_colour = #efefef
+    axislabel_colour = #666666
+  }
+}
